@@ -29,5 +29,5 @@ This folder includes models for object detection tasks:
 
 ### **Components Folder**
 Contains:
-- **DataLoader for Classification Models**: Custom data loading pipeline for the classification models.
+- **Dataset Class for Classification Models**: For handling and preparing data.
 ---
