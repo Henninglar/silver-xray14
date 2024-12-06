@@ -2,6 +2,8 @@
 
 **Note**: The dataset and model weights are too large to be uploaded to this repository. Only the specific YOLOv5 configuration files have been included. To run YOLOv5 with these configurations, you must clone the original [YOLOv5 repository](https://github.com/ultralytics/yolov5) and add the provided configuration files from this project.
 
+Dataset used: https://www.kaggle.com/datasets/nih-chest-xrays/data
+
 ---
 
 ## **Project Structure**
