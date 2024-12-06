@@ -23,7 +23,7 @@ Additionally, it includes:
 ### **Object Detection Folder**
 This folder includes models for object detection tasks:
 - **Faster R-CNN MODEL**
-- **YOLOv5**: Model + YAML file.
+- **YOLOv5**: Runfile (config) + YAML file.
 
 ---
 
