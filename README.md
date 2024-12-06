@@ -10,10 +10,10 @@ Dataset used: https://www.kaggle.com/datasets/nih-chest-xrays/data
 
 ### **Classification Folder**
 This folder contains the following models for classification tasks:
-- **CheXNet Model**
-- **DenseNet Model**
-- **EfficientNet Model**
-- **ResNet Model**
+- **CheXNet Code**
+- **DenseNet Code**
+- **EfficientNet Code**
+- **ResNet Code**
 
 Additionally, it includes:
 - **Ensemble Code**: To perform both average and weighted ensemble methods across the classification models.
@@ -22,8 +22,8 @@ Additionally, it includes:
 
 ### **Object Detection Folder**
 This folder includes models for object detection tasks:
-- **Faster R-CNN MODEL**
-- **YOLOv5**: Runfile (config) + YAML file.
+- **Faster R-CNN Code**
+- **YOLOv5 Code**: Runfile (config) + YAML file.
 
 ---
 
