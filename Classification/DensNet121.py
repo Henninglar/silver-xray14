@@ -1,6 +1,6 @@
 """
-The main DensNet121 model implementation with additional fine-tuning.
-Wanted to try 169 but pc just crashed lol
+The main DensNet121 model implementation
+Wanted to try DENSNET169 but pc just crashed lol
 """
 
 import os
