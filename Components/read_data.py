@@ -103,7 +103,6 @@ def load_labels(labels_file, CLASS_NAMES):
 # This function retrives the test images that are specified in self.image_names. These images ahve ground truth so we can compare CAM to ground truth.
 class ChestXraySpecificImagesDataSet(Dataset):
     def __init__(self, transform=None):
-        # Hardcoded image directories
         self.image_dirs = [
             './Chest-X-rays14-Dataset/images_001/images/',
             './Chest-X-rays14-Dataset/images_002/images/',
@@ -119,12 +118,12 @@ class ChestXraySpecificImagesDataSet(Dataset):
             './Chest-X-rays14-Dataset/images_012/images/',
         ]
 
-        # Hardcoded list of specific image IDs. You can replace it with any images here that have Ground truth. Check YOLOV5/runs/val for  results for that.
+        # Hardcoded list of specific image IDs. Ensure this images have ground truth since they are used in the CAM so we can see how well it acutally performs.
         self.image_names = [
             "00021860_003.png", "00022237_002.png", "00023026_008.png","00025221_001.png","00022899_014.png"
         ]
 
-        self.transform = transform  # Image transformations to be applied (if any)
+        self.transform = transform 
 
     def __getitem__(self, index):
         image_name = self.image_names[index]  # Get the image name at the given index
