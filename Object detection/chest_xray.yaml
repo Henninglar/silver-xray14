@@ -1,0 +1,9 @@
+# chest_xray.yaml
+path: C:/Users/henni/PycharmProjects/IKT450/Project/Chest-X-rays14-Dataset  # Base path
+train: ImagesWithAnnotations/Training  # Path to training images
+val: ImagesWithAnnotations/Validation      # Path to validation images
+
+nc: 14  # Number of classes
+names: ['Atelectasis', 'Cardiomegaly', 'Effusion', 'Infiltration', 'Mass', 'Nodule',
+                   'Pneumonia', 'Pneumothorax', 'Consolidation', 'Edema', 'Emphysema',
+                   'Fibrosis', 'Pleural_Thickening', 'Hernia']
