@@ -168,7 +168,7 @@ def train_fasterrcnn(model,optimizer,n_epochs,train_loader,test_loader = None, l
 """ used to train model.
 NUM_EPOCHS = 50
         
-model = get_object_detection_model(num_classes = 9,feature_extraction = True) #If i swap this to false training time goes to 8h+
+model = get_object_detection_model(num_classes = 9,feature_extraction = True) #If i swap this to false training time goes to 18h+ due to updated ALL layers. Keep at TRUE!.
 params = [p for p in model.parameters() if p.requires_grad]
 optimizer = torch.optim.SGD(params, lr=0.001, momentum=0.9, weight_decay=0.0005)
 scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=5, gamma=0.1)
