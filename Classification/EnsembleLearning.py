@@ -116,9 +116,7 @@ if __name__ == '__main__':
 
     # Ensemble Method 2: Simple Averaging
     final_pred_avg = (pred_densenet + pred_resnet + pred_efficientnet) / 3
-
-    # Ensemble Method 3: Majority Voting
-
+        
     # Compute AUROC for each ensemble method
     AUROCs_weighted = compute_AUCs(gt_densenet, final_pred_weighted)
     AUROCs_avg = compute_AUCs(gt_densenet, final_pred_avg)
