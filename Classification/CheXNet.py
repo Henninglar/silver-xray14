@@ -1,5 +1,5 @@
 """
-The main CheXNet model implementation with additional fine-tuning.
+The main CheXNet model implementation with fine tuning and run on our augmentation. Added CAM heatmap
 """
 
 import os
