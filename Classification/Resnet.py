@@ -1,5 +1,5 @@
 """
-The main ResNet model implementation with additional fine-tuning.
+The main ResNet model implementation
 """
 
 import os
