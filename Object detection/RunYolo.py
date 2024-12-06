@@ -10,10 +10,10 @@ def main():
     epochs = 50
     # Training
 
-    #print("Starting training...")
-   # train.run(img=img_size, batch=batch_size, epochs=epochs, data=data_yaml, weights=weights_path)
+    print("Starting training...")
+    
+   train.run(img=img_size, batch=batch_size, epochs=epochs, data=data_yaml, weights=weights_path) #Can comment this out and replace the weights above with trained weights to skipo this step
 
-    # Validation
     print("Starting validation...")
     val.run(data=data_yaml, imgsz=img_size, weights=weights_path_validation)
 
