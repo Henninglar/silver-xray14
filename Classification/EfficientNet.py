@@ -1,6 +1,5 @@
 """
-The main DensNet121 model implementation with additional fine-tuning.
-Wanted to try 169 but pc just crashed lol
+The main EfficientNet model implementation
 """
 
 import os
